@@ -13,3 +13,6 @@ git コマンドメモ
    
 
 -- github からメモ -- 
+gitpod の 「git pull origin master」 のコマンドより
+github　からの編集が gitpod へ。
+確認完了。 
