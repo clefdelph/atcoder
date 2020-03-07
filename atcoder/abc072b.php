@@ -1,15 +1,12 @@
 <?php
-$str =trim(fgets(STDIN));
-$array = str_split($str);
-$length = strlen($str);
-$afterStr="";
- 
- 
- 
-for($i=1;$i<=$length;$i+=2){
-    $afterStr.=$array[$i-1];
+$num =trim(fgets(STDIN));
+$count=0;
+
+for($i=1;$i<=$num;$i++){
+    if(strlen($i)%2==1){
+    $count++;
+    }
 }
- 
-echo $afterStr;
- 
+
+echo $count;
 ?>
